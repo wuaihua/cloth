@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'clothing';
+    src: url("../font/hermesscript-regular.eot?#iefix") format("eot"),
+    url("../font/hermesscript-regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'mini';
+    src: url("../font/hermesscript-regular.eot?#iefix") format("eot"),
+    url("../font/rockwell-light.woff") format("woff");
+
+}

@@ -1,0 +1,94 @@
+*{margin:0;padding:0}
+input,button,select,textarea{ outline:none;border:none}
+textarea{resize:none;}
+html,body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; width:100%; color:#303030;}
+html{overflow-y:scroll;}
+td{font-size:12px;}
+input{font-size:14px; outline:none;}
+select{font-size:12px;}
+textarea{ overflow:auto; font-size:12px;}
+img{ border:0px;}
+ul,li{list-style-type:none;}
+ul,li,p,div,input,ol{padding:0px; margin:0px;}
+a{text-decoration:none; color:#999999; outline-style:none;}
+a:hover{ color:#ed3445;}
+h1{ font-size:4rem;font-weight: normal}
+h2{ font-size:3rem;font-weight: normal}
+h3{ font-size:2rem;font-weight: normal}
+h4{ font-size:1rem;font-weight: normal}
+.rt{  float: right}
+.ct{
+    width: 910px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+table{
+    border-collapse: collapse;
+}
+table tr td,th{
+    border:1px solid #ccc;
+    text-align: center;
+    padding:7px 8px;
+    font-size: 13px;
+}
+table tr td{
+    position: relative;
+    overflow: hidden;
+}
+table tr td textarea, table tr td input[type=text]{
+    position: absolute;
+    display: block;
+    top:0;left:0 ;
+    right: 0;bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 3px;
+    height: 100%;
+}
+table tr td input[type=checkbox]{
+    position: relative;
+    top:2px;
+}
+.left{
+    text-align: left;
+}
+thead td:last-child{
+    width: 63px;
+}
+tbody .ht td{
+    height: 100px;
+}
+table caption{
+    padding:20px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+table caption span{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.plate{
+    padding:15px 3px;
+}
+.plate  p{
+    margin:5px 0;
+}
+.plate  .foot{
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+}
+.blank{
+    height: 180px;
+}
+.pink{
+    background-color:#FFCC99;
+    color:#000;
+}
+.gray{
+    background-color:#CCC;
+    color:#000;
+}
+.btn{
+    background-color: #fff;
+}
