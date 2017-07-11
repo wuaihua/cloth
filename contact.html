@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style2.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery-1.11.3.js"></script>
+    <title>新服装网站</title>
+</head>
+<body class="nbc3 container">
+<div style="background-color: #fff;">
+    <header class="">
+        <div>
+            <div class="header-main">
+                <div class="img-ct">
+                    <!--<img src="images/newlogo.png" alt="" style="width: 100px;"/>-->
+                    <h2 style="font-family: clothing;font-weight: 600">&nbsp; THEDSEURO</h2>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">HOME <span class="line"></span></a></li>
+                        <li><a href="series.html">OUR SERIES <span class="line"></span></a></li>
+                        <li><a href="contact.html">CONTACT US<span class="line showline"></span></a></li>
+                        <li><a href="about.html">ABOUT US <span class="line"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+
+<div id="body">
+
+    <div class="banner">
+        <img src="images/contact_bg.jpg" alt=""/>
+
+        <div class="mask">
+
+            <h2>CONTACT</h2>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="bc2 contact">
+            <span class="ht80"></span>
+            <h4><strong>THEDSEURO </strong>CHINA.</h4>
+            <span class="ht30"></span>
+            <h4><strong>Address</strong>: First floor,No.212,Jiangyi road,haizhu district,Guangzhou.</h4>
+            <span class="ht30"></span>
+            <h4>Cherry <span class="ht20"></span>
+                Tel: 86-20-84019387 <span class="ht20"></span>
+                Fax: 86-2084019387 <span class="ht20"></span>
+                Email: cherry@eastcn.org
+            </h4>
+            <span class="ht80"></span>
+        </div>
+
+    </div>
+
+    <div class="section nbc1">
+        <div class="minicontainer">
+            <span class="ht30"></span>
+            © Copyright - THEDSEURO
+            <span class="ht30"></span>
+        </div>
+    </div>
+</div>
+
+
+
+<script >
+    $(window).scroll(function(){
+        var variable=$(this).scrollTop();
+        var Reference=$('#body').offset().top;
+
+        if(Reference<variable){
+            $('header').css('position','fixed').css("background",'rgba(255, 255, 255, 0.84)').css('border-bottom',"1px solid #ddd");
+            $('header .header-main').css('height','50px')
+        }
+        if(Reference>=variable){
+            $('header').css('position','relative').css("background",'rgba(255, 255, 255, 1))').css('border-bottom',"none");
+            $('header .header-main').css('height','80px')
+        }
+    })
+</script>
+</body>
+</html>

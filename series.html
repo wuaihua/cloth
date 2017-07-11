@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style2.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery-1.11.3.js"></script>
+    <title>新服装网站</title>
+</head>
+<body class="nbc3 container">
+<div style="background-color: #fff;">
+    <header class="">
+        <div>
+            <div class="header-main">
+                <div class="img-ct">
+                    <!--<img src="images/newlogo.png" alt="" style="width: 100px;"/>-->
+                    <h2 style="font-family: clothing;font-weight: 600">&nbsp; THEDSEURO</h2>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">HOME <span class="line"></span></a></li>
+                        <li><a href="series.html">OUR SERIES <span class="line  showline"></span></a></li>
+                        <li><a href="contact.html">CONTACT US<span class="line"></span></a></li>
+                        <li><a href="about.html">ABOUT US <span class="line"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+
+<div id="body">
+
+
+    <div class="section nbc1">
+        <div class="minicontainer">
+            <span class="ht40"></span><h2>OUR SERIES</h2>
+            <div class="pic">
+                <span class="ht30"></span>
+                <span class="hr-inner"><span class="hr-inner-style"></span></span>
+            </div>
+            <span class="ht40"></span>
+        </div>
+    </div>
+
+    <div class="section">
+
+        <div>
+            <div class="plate bc">
+                <div class="plate-left">
+                    <img src="images/photos-company/DSC_3737.JPG" alt=""/>
+                </div>
+                <div class="plate-right">
+                    <h2>Femme</h2>
+                    <p class="minicontainer2">
+                        FEMME hangtag –Femme collection is more feminine which is pretty popular with its affordable price in materials and fabric. It is suitable for those who look forward to have a romantic and delicate look.
+                        This collection not only focuses on the selection of materials but also on the manufacture of artwork and style: soft fabrics, natural fibers and dedicated lace, lace patches; feminine prints and artwork like bead artwork& bead band; girly styles like dresses and skirts. 15 new styles of this series will be launched weekly.
+                    </p>
+                </div>
+            </div>
+
+            <div class="plate bc1">
+                <div class="plate-right">
+                    <h2>Trend</h2>
+                    <p class="minicontainer2">
+                        TREND hangtag - East Trend is a collection always walking in the fashion forward. The use of high cost and very exclusive fabric such as silk, cupro and tencel determines its market orientation towards high-end customers. This collection is popular for its simple and neutral on design. It can say that it is the ‘must-have’ items for the fashionably daring. Every day the design team keeps constantly trying new techniques on shapes and fabrics.10 new styles will be launched weekly.
+
+                    </p>
+                </div>
+                <div class="plate-left">
+                    <img src="images/photos-company/DSC_3838.jpg" alt=""/>
+                </div>
+            </div>
+
+            <div class="plate bc">
+                <div class="plate-left">
+                    <img src="images/photos-company/DSC_3756.JPG" alt=""/>
+                </div>
+                <div class="plate-right">
+                    <h2>FOCUS</h2>
+                    <p class="minicontainer2">
+                        FOCUS hangtag - East Focus is a collection with standard list price at which the general public can purchase. The price of styles in this collection is almost fixed; for example, the dresses are usually priced at $7 to $10 and the skirts at $5 to $7. The features of this collection focus on its simple shape and practical materials which enable it relatively easy to manufacture.15 new styles will be launched weekly.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="plate bc1">
+                <div class="plate-right">
+                    <h2>Express</h2>
+                    <p class="minicontainer2">
+                        Express Hangtag - East Express collection is a symbol of current fashion trend; its design flows towards the diversification of models, updating fast and reasonably priced. If someone asks what the trend is these days, it is no doubt to answer the East Express collection. However, for the fast fashion trend the life cycle of this collection no matter on designing, trimming or sampling will at most only have two weeks, so the amount of style updated will depend on the current situation, sometimes 12 new styles will be launched and sometimes only 5.
+                    </p>
+                </div>
+                <div class="plate-left">
+                    <img src="images/photos-company/DSC_3768.JPG" alt=""/>
+                </div>
+            </div>
+
+            <div class="plate bc">
+                <div class="plate-left">
+                    <img src="images/photos-company/IMG_5077.JPG" alt=""/>
+                </div>
+                <div class="plate-right">
+                    <h2>   Rousers </h2>
+                    <p class="minicontainer2">
+                        Trousers Hangtag - East Trousers is a start-up collection which has a very high requirement on fitting and quality of the trousers. 20 to 25 new styles will be launched monthly. The designers will develop the new style of trousers based on the current fashion trend. Of the new styles, several styles will be modified from the pre-existing shape through updated the fabric or some details.
+                        This collection has a wide range of price – cheap, medium and expensive, which satisfies the needs of different customer group.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section nbc1">
+        <div class="minicontainer">
+            <span class="ht30"></span>
+            © Copyright - THEDSEURO
+            <span class="ht30"></span>
+        </div>
+    </div>
+</div>
+
+
+
+<script >
+    $(window).scroll(function(){
+        var variable=$(this).scrollTop();
+        var Reference=$('#body').offset().top;
+
+        if(Reference<variable){
+            $('header').css('position','fixed').css("background",'rgba(255, 255, 255, 0.84)').css('border-bottom',"1px solid #ddd");
+            $('header .header-main').css('height','50px')
+        }
+        if(Reference>=variable){
+            $('header').css('position','relative').css("background",'rgba(255, 255, 255, 1))').css('border-bottom',"none");
+            $('header .header-main').css('height','80px')
+        }
+    })
+</script>
+</body>
+</html>
