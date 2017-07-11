@@ -16,7 +16,7 @@ h3{ font-size:2rem;font-weight: normal}
 h4{ font-size:16px;font-weight: normal}
 /* 样式归0结束 */
 /* 全局样式公用 开始 */
-.container{  width: 1240px;  margin:0 auto;  }
+.container{  width: 1180px;  margin:0 auto;  }
 .minicontainer{width: 60%;  margin:0 auto;}
 .minicontainer2{width: 90%;  margin:0 auto;}
 .bc{background-color: rgba(232, 232, 232, 0.88); color: #5c5c5c; }
@@ -31,7 +31,7 @@ header{
     top:0;
     background-color: #fff;
     z-index: 99;
-    width: 1240px;
+    width: 1180px;
 }
 .ht80{  height: 80px; clear:both;display: block;width: 100% }
 .ht70{  height: 70px; clear:both;display: block;width: 100% }
