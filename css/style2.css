@@ -55,6 +55,7 @@ header{
     -moz-align-items: stretch;
     -ms-align-items: stretch;
     -o-align-items: stretch;
+    overflow: hidden;
 }
 .header-main .img-ct{
     display: flex;
