@@ -188,7 +188,6 @@ header{
     flex-flow: row nowrap;
     display: flex;
     /*box-shadow: 1px 0 1px 0 #fff,2px 0 4px 0 #dcdcdc, 1px 0 7px 0 #c2c2c2, 1px 0 10px 0 #a7a7a7;*/
-    font-family:CenturyGothic, AppleGothic, sans-serif;
 }
 .plate .plate-left,.plate .plate-right{
     align-items: center;
@@ -218,16 +217,14 @@ header{
 }
 .plate  p{
     text-indent:22px;
-    font-size: 16px;
-    word-break: break-all;
-    font-family: mini , "Roboto", "Segoe UI", sans-serif;
+    font-size: 15px;
+    font-family:  "Microsoft YaHei", "CenturyGothic-Regular", CenturyGothic, AppleGothic, sans-serif;
 }
 .plate h2{
     text-transform: uppercase;
-    font-style: italic;
     font-weight: 900;
     text-shadow: 1px 1px #ccc;
-    font-family: mini , "Roboto", "Segoe UI", sans-serif;;
+    font-family:  "Microsoft YaHei", "CenturyGothic-Regular", CenturyGothic, AppleGothic, sans-serif;
 }
 .plate img{
     width: 100%;
@@ -296,4 +293,7 @@ header{
 .pic .cl{
     border-top:1px dotted #585b5b;
     width: 100%;
+}
+a:hover{
+    color: #595959;
 }
