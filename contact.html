@@ -13,11 +13,12 @@
         <div>
             <div class="header-main ">
                 <div class="img-ct">
-                    <img src="images/icon100_com_429.png" alt=""  style="transform: rotate(-30deg)"/>
+					<img src="images/icon100_com_429.png" alt=""  style="transform: rotate(-30deg)"/>
                     <h2 style="font-weight: 600">&nbsp;TRENDSEURO</h2>
                 </div>
                 <div class="nav">
                     <ul>
+
                         <li><a href="index.html">HOME <span class="line"></span></a></li>
                         <li><a href="series.html">OUR SERIES <span class="line"></span></a></li>
                         <li><a href="contact.html">CONTACT US<span class="line showline"></span></a></li>
@@ -72,7 +73,7 @@
     $(window).scroll(function(){
         var variable=$(this).scrollTop();
         var Reference=$('#body').offset().top;
-
+		
         if(Reference<variable){
             $('header').css('position','fixed').css("background",'rgba(255, 255, 255, 0.84)').css('border-bottom',"1px solid #ddd");
             $('header .header-main').css('line-height','50px');
